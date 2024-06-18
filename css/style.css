@@ -40,9 +40,50 @@ body{
     color: #fff;
 }
 
+.main-content .left{
+    position:absolute;
+    width: 40%;
+    top:100px;
+    left:10%;
+    height: 100%;
+    color:#ffffff
+}
+
+.main-content .left .big{
+    font-size: 40px;
+}
+
+.main-content .left .big .big-text{
+     color:rgb(230, 5, 162);
+}
 .main-content .right{
     width: 90%;
     height: 100%;
     z-index: -10;
     mix-blend-mode:color-dodge;
 }
+
+.main-content .left .overview{
+    display: flex;
+    justify-content:flex-start;
+    gap:15px;
+}
+.main-content .left .overview .over{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.main-content .left .overview .over{
+    font: weight 700;
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+.main-content .right img{
+    width: 100%;
+    height: 200%;
+    z-index: -10;
+}
+
+
