@@ -36,8 +36,26 @@ body{
 .main-content{
     display: flex;
     justify-content: flex-end;
-    /* position:relative; */
     color: #fff;
+}
+
+.buttons{
+    display:flex;
+}
+
+.buy{
+    padding:10px;
+    margin:10px 20px;
+    transform: skewX(-20deg);
+    border:2px solid #fff;
+    cursor: pointer;
+    background-color:transparent;
+    color: #fff;
+}
+
+.btn{
+    background: #2D1E6B;
+    background: linear-gradient(45deg,#4b31b1 10%,#261bc9 22%, #9c0e66 28% );
 }
 
 .main-content .left{
@@ -51,6 +69,7 @@ body{
 
 .main-content .left .big{
     font-size: 40px;
+    font-weight: 700;
 }
 
 .main-content .left .big .big-text{
