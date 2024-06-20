@@ -55,7 +55,7 @@ body{
 
 .btn{
     background: #2D1E6B;
-    background: linear-gradient(45deg,#4b31b1 10%,#261bc9 22%, #9c0e66 28% );
+    background: linear-gradient(45deg,#2905b9 6%,#241e7e 28%, #e0098e 97% );
 }
 
 .main-content .left{
@@ -93,9 +93,8 @@ body{
     align-items:center;
 }
 
-.main-content .left .overview .over{
-    font: weight 700;
-    font-size:20px;
+.main-content .left .overview .over h4{
+    font-size:13px;
     margin:0;
     padding:0;
 }
@@ -105,4 +104,25 @@ body{
     z-index: -10;
 }
 
+.band{
+    width: 100%;
+    margin: auto;
+    height: 10px;
+    display: flex;
+    padding: 15px 10px;
+    margin-bottom: 100px;
+    color: #fff;
+    border: 2px solid #ffffff40;
+    transform: rotate(-3deg);
+    justify-content: space-between;
+    background: #ffffff40;
+    font-size: 20px;
+    box-shadow: 0 80px 32px 0 rgba(31, 38, 135,0.37);
+    backdrop-filter: blur(4px);
+    align-items: center;
+}
+
+.band img{
+    height: 20px;
+}
 
