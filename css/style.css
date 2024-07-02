@@ -5,6 +5,7 @@
 
 body{
     background-color: #2D1E6B;
+    width: 100%;
 }
 .main{
     width: 80%;
@@ -170,5 +171,33 @@ body{
 
 .maintext{
     width: 500px;
-    /* align-items: ce; */
+    font-size: 14px;
+    font-weight: 10;
+}
+
+.card-dit{
+    display: flex;
+    width:70%;
+    margin: 100px auto;
+    align-items: center;
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background:#35276D;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135,0.37);
+    
+}
+.card-dit img{
+    z-index: -10;
+    mix-blend-mode:color-dodge;
+}
+.big-text{
+    color:#ffffff;
+}
+.gradient-text{
+    color:#e0098e;
+}
+
+.section-description{
+    color:#ffffff;
 }
